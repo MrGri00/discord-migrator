@@ -1,7 +1,9 @@
-import { Client } from "discord.js";
-import dotenv from 'dotenv';
+import { Client, GatewayIntentBits } from "discord.js";
+import dotenv from "dotenv";
 dotenv.config();
 
-const client = new Client({intents: ["GUILDS", "GUILD_MESSAGES"]});
+const client = new Client({
+  intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages],
+});
 
-client.login(variables.env.BOT_TOKEN);
+client.login(process.env.BOT_TOKEN);
