@@ -1,4 +1,19 @@
 {
+  "name": "discord-migrator",
+  "version": "1.0.0",
+  "description": "Small bot to migrate content between Discord channels or servers",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "discord",
+    "migrator",
+    "migration",
+    "bot"
+  ],
+  "author": "MrGri00",
+  "license": "MIT",
   "type": "module",
   "dependencies": {
     "discord.js": "^14.17.3",
