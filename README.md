@@ -6,3 +6,5 @@ Small bot to migrate content between Discord channels or servers
 BOT_TOKEN="YOUR BOT TOKEN"
 COMMAND_PREFIX="YOUR COMMAND PREFIX"
 ```
+2. Run `npm install`
+3. Run `npm start`

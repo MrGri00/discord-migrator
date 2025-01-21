@@ -4,7 +4,7 @@
   "description": "Small bot to migrate content between Discord channels or servers",
   "main": "src/index.js",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "nodemon"
   },
   "keywords": [
     "discord",
@@ -17,6 +17,7 @@
   "type": "module",
   "dependencies": {
     "discord.js": "^14.17.3",
-    "dotenv": "^16.4.7"
+    "dotenv": "^16.4.7",
+    "nodemon": "^3.1.9"
   }
 }
